@@ -1,0 +1,116 @@
+.thicket__list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  flex-direction: column;
+  gap: 22px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.nodata {
+  padding: 24px 0;
+  color: red;
+  text-align: center;
+}
+
+.thicket__wrapper {
+  max-width: 502px;
+  background-color: #fff;
+  padding: 17px 15px 20px 20px;
+  border-radius: 20px;
+  border-collapse: collapse;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+  transition: box-shadow 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  &:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 5px -3px;
+  }
+}
+.thicket__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+  & p {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    color: #2196f3;
+  }
+}
+.thicket__body__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.thicket__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.thicket__body__element {
+  display: flex;
+  justify-content: space-between;
+  & p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: (21/14);
+    color: #4a4a4a;
+  }
+  & p:first-child {
+    margin: 0;
+    padding: 0;
+    color: #a0b0b9;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: (18/12);
+  }
+}
+
+.thicket__transfer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: (21/14);
+  color: #4a4a4a;
+  margin: 0;
+  & .thicket_transfer__vector {
+    list-style-type: none;
+    display: flex;
+    gap: 3px;
+    padding: 0;
+    li:not(:last-child):after {
+      content: ", ";
+    }
+  }
+  & .thicket__transfer__title {
+    color: #a0b0b9;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: (18/12);
+  }
+}
+.thicket__transfer__single {
+  color: #a0b0b9;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: (18/12);
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .thicket__body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .thicket__body__element {
+    flex-direction: column;
+  }
+  .thicket__transfer {
+    flex-direction: column;
+  }
+}

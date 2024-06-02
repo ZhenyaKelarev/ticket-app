@@ -1,0 +1,61 @@
+.filters__wrapper {
+  overflow: scroll;
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  background-color: #fff;
+  padding-top: 24px;
+  transition: opacity 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.active {
+  width: 100vw;
+  height: auto;
+  opacity: 1;
+  pointer-events: all;
+}
+.filter-close___btn {
+  position: absolute;
+  top: 2px;
+  right: 16px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.filter-open___btn {
+  margin-left: 16px;
+  padding: 12px 16px;
+  border: none;
+  background: #2196f3;
+  border-radius: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 300ms cubic-bezier(0.075, 0.82, 0.165, 1),
+    color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  &:hover {
+    background-color: #e5e5e5;
+    color: #212121;
+  }
+}
+@include tablet {
+  .filter-open___btn {
+    display: none;
+  }
+  .filter-close___btn {
+    display: none;
+  }
+  .filters__wrapper {
+    position: static;
+    display: block;
+    width: auto;
+    height: auto;
+    opacity: 1;
+    pointer-events: all;
+    max-height: 304px;
+    padding: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+}

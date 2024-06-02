@@ -1,0 +1,15 @@
+.header {
+  padding: 16px 0;
+  &__link {
+    width: 100%;
+    max-width: fit-content;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-collapse: collapse;
+    transition: box-shadow 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+  }
+}

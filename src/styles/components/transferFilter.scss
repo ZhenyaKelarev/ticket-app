@@ -1,0 +1,66 @@
+.transfer-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  padding: 14px 20px 20px 20px;
+
+
+  &__title {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: calc(20 / 13);
+    color: #211c1c;
+    margin: 0px;
+  }
+
+  &__checkbox {
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    margin: 0 -20px;
+    position: relative;
+
+    &:hover {
+      background-color: #f1fcff;
+    }
+
+    & input {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+
+      &:checked + .transfer-filter__icon {
+        color: #2196f3;
+        border-color: #2196f3;
+        background-color: #e0f7fa;
+      }
+    }
+  }
+
+  &__icon {
+    color: transparent;
+    border-radius: 2px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    border: 1px solid #9abbce;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.3s, border-color 0.3s, background-color 0.3s;
+  }
+
+  &__text {
+    color: #4a4a4a;
+    font-size: 13px;
+    line-height: calc(20 / 13);
+  }
+}

@@ -1,0 +1,542 @@
+[
+  {
+    "id": "a53dfe7b-6150-4492-8784-8e1546a499f8",
+    "price": 13300,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "10:45",
+        "arrivalTime": "08:00",
+        "duration": "34h 15m",
+        "transferPoints": ["HKG"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "11:20",
+        "arrivalTime": "00:50",
+        "duration": "16h 30m",
+        "transferPoints": ["HKG"]
+      }
+    ],
+    "total_duration": 3045,
+    "transfers": 1
+  },
+  {
+    "id": "9d4ff7f6-fa54-48d5-976e-1fd7838d9f5b",
+    "price": 15100,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "10:45",
+        "arrivalTime": "08:00",
+        "duration": "17h 15m",
+        "transferPoints": ["HKG", "JNB"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "11:20",
+        "arrivalTime": "00:50",
+        "duration": "40h 30m",
+        "transferPoints": ["HKG", "JNB"]
+      }
+    ],
+    "total_duration": 3465,
+    "transfers": 2
+  },
+  {
+    "id": "3ba6264f-8ca6-40fe-b84b-b003998a507e",
+    "price": 15400,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "10:45",
+        "arrivalTime": "08:00",
+        "duration": "20h 15m",
+        "transferPoints": ["HKG"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "11:20",
+        "arrivalTime": "00:50",
+        "duration": "13h 30m",
+        "transferPoints": ["HKG"]
+      }
+    ],
+    "total_duration": 2025,
+    "transfers": 1
+  },
+  {
+    "id": "717b74b0-e240-4509-8128-b48f5d8f6836",
+    "price": 21400,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "10:45",
+        "arrivalTime": "08:00",
+        "duration": "21h 15m",
+        "transferPoints": ["HKG", "JNB", "JNB"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "11:20",
+        "arrivalTime": "00:50",
+        "duration": "12h 30m",
+        "transferPoints": ["HKG", "JNB", "JNB"]
+      }
+    ],
+    "total_duration": 1245,
+    "transfers": 3
+  },
+  {
+    "id": "9ad085f5-c141-4d2a-96e2-6e4ec8cca9fd",
+    "price": 23900,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "10:45",
+        "arrivalTime": "08:00",
+        "duration": "11h 15m"
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "11:20",
+        "arrivalTime": "00:50",
+        "duration": "9h 30m"
+      }
+    ],
+    "total_duration": 2985,
+    "transfers": 0
+  },
+  {
+    "id": "80251ed2-7a9a-4e5e-bdca-da05dbd4bc2a",
+    "price": 14000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "11:45",
+        "arrivalTime": "08:00",
+        "duration": "29h 15m",
+        "transferPoints": ["HKG"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "13:20",
+        "arrivalTime": "01:50",
+        "duration": "20h 30m",
+        "transferPoints": ["SIN"]
+      }
+    ],
+    "total_duration": 2985,
+    "transfers": 2
+  },
+  {
+    "id": "b022c870-38ec-4377-a9d6-2c2c514692c2",
+    "price": 19000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "09:45",
+        "arrivalTime": "06:00",
+        "duration": "24h 15m",
+        "transferPoints": ["BKK"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "10:20",
+        "arrivalTime": "00:50",
+        "duration": "18h 30m",
+        "transferPoints": ["BKK"]
+      }
+    ],
+    "total_duration": 3165,
+    "transfers": 1
+  },
+  {
+    "id": "d32787f7-3083-4d32-8fd7-b0ca62ad3ad5",
+    "price": 25000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "14:45",
+        "arrivalTime": "12:00",
+        "duration": "30h 15m",
+        "transferPoints": ["HKG", "SIN", "NRT"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "16:20",
+        "arrivalTime": "02:50",
+        "duration": "22h 30m",
+        "transferPoints": ["HKG", "SIN", "NRT"]
+      }
+    ],
+    "total_duration": 2925,
+    "transfers": 3
+  },
+  {
+    "id": "550cc242-429b-4365-901f-a91f03c437f3",
+    "price": 17000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "12:45",
+        "arrivalTime": "10:00",
+        "duration": "28h 15m",
+        "transferPoints": ["SIN", "BKK"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "14:20",
+        "arrivalTime": "04:50",
+        "duration": "20h 30m",
+        "transferPoints": ["SIN", "BKK"]
+      }
+    ],
+    "total_duration": 2685,
+    "transfers": 2
+  },
+  {
+    "id": "7633934e-43ac-40c0-8f3c-384410fc7608",
+    "price": 16000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "08:45",
+        "arrivalTime": "06:00",
+        "duration": "26h 15m",
+        "transferPoints": ["BKK", "NRT"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "10:20",
+        "arrivalTime": "02:50",
+        "duration": "18h 30m",
+        "transferPoints": ["BKK", "NRT"]
+      }
+    ],
+    "total_duration": 3285,
+    "transfers": 2
+  },
+  {
+    "id": "329a2d98-7635-4c0a-806d-e5c922f01de9",
+    "price": 23000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "13:45",
+        "arrivalTime": "11:00",
+        "duration": "31h 15m",
+        "transferPoints": ["HKG", "SIN", "BKK"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "17:20",
+        "arrivalTime": "03:50",
+        "duration": "23h 30m",
+        "transferPoints": ["HKG", "SIN", "BKK"]
+      }
+    ],
+    "total_duration": 2925,
+    "transfers": 3
+  },
+  {
+    "id": "b05d65b6-4be2-4da5-bff5-020eb3198f73",
+    "price": 18000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "11:45",
+        "arrivalTime": "09:00",
+        "duration": "27h 15m",
+        "transferPoints": ["SIN", "BKK"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "15:20",
+        "arrivalTime": "05:50",
+        "duration": "21h 30m",
+        "transferPoints": ["SIN", "BKK"]
+      }
+    ],
+    "total_duration": 2685,
+    "transfers": 2
+  },
+  {
+    "id": "c8c3b7cf-5931-4823-b18e-016fcfebd27c",
+    "price": 15000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "09:45",
+        "arrivalTime": "07:00",
+        "duration": "25h 15m",
+        "transferPoints": ["BKK"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "13:20",
+        "arrivalTime": "05:50",
+        "duration": "19h 30m",
+        "transferPoints": ["BKK"]
+      }
+    ],
+    "total_duration": 3285,
+    "transfers": 1
+  },
+  {
+    "id": "ffbcb94b-360a-45b5-b2c0-eaf301554b08",
+    "price": 24000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "12:45",
+        "arrivalTime": "10:00",
+        "duration": "32h 15m"
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "16:20",
+        "arrivalTime": "06:50",
+        "duration": "22h 30m"
+      }
+    ],
+    "total_duration": 2925,
+    "transfers": 0
+  },
+  {
+    "id": "d6d81c88-16bd-48d8-9912-d6d1e9a18a24",
+    "price": 20000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "08:45",
+        "arrivalTime": "06:00",
+        "duration": "28h 15m"
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "12:20",
+        "arrivalTime": "04:50",
+        "duration": "20h 30m"
+      }
+    ],
+    "total_duration": 3525,
+    "transfers": 0
+  },
+  {
+    "id": "4656cf84-ba7b-4d5c-a4bd-9e84e1d984af",
+    "price": 22000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "14:45",
+        "arrivalTime": "12:00",
+        "duration": "34h 15m",
+        "transferPoints": ["HKG", "SIN", "BKK"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "18:20",
+        "arrivalTime": "08:50",
+        "duration": "24h 30m",
+        "transferPoints": ["HKG", "SIN", "BKK"]
+      }
+    ],
+    "total_duration": 3045,
+    "transfers": 3
+  },
+  {
+    "id": "03dd57b7-e58b-4292-a167-61c4056d75f1",
+    "price": 17000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "11:45",
+        "arrivalTime": "09:00",
+        "duration": "29h 15m",
+        "transferPoints": ["SIN", "BKK"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "15:20",
+        "arrivalTime": "07:50",
+        "duration": "21h 30m",
+        "transferPoints": ["SIN", "BKK"]
+      }
+    ],
+    "total_duration": 2685,
+    "transfers": 2
+  },
+  {
+    "id": "fb617183-8f06-4ae1-8e06-201db43fbb72",
+    "price": 16000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "10:45",
+        "arrivalTime": "08:00",
+        "duration": "26h 15m"
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "14:20",
+        "arrivalTime": "06:50",
+        "duration": "18h 30m"
+      }
+    ],
+    "total_duration": 3165,
+    "transfers": 0
+  },
+  {
+    "id": "b337782a-7f61-4dea-b203-0c369e3e4a7f",
+    "price": 15000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "14:45",
+        "arrivalTime": "12:00",
+        "duration": "30h 15m",
+        "transferPoints": ["HKG"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "18:20",
+        "arrivalTime": "10:50",
+        "duration": "22h 30m",
+        "transferPoints": ["HKG"]
+      }
+    ],
+    "total_duration": 2925,
+    "transfers": 1
+  },
+  {
+    "id": "6605d169-c77f-44d2-bd36-02e779239474",
+    "price": 18000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "12:45",
+        "arrivalTime": "10:00",
+        "duration": "28h 15m",
+        "transferPoints": ["SIN", "BKK"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "16:20",
+        "arrivalTime": "08:50",
+        "duration": "20h 30m",
+        "transferPoints": ["SIN", "BKK"]
+      }
+    ],
+    "total_duration": 2685,
+    "transfers": 2
+  },
+  {
+    "id": "f768c920-e5fa-4fc7-bd2f-f245554a1101",
+    "price": 17000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "11:45",
+        "arrivalTime": "09:00",
+        "duration": "27h 15m",
+        "transferPoints": ["SIN", "BKK"]
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "15:20",
+        "arrivalTime": "07:50",
+        "duration": "21h 30m",
+        "transferPoints": ["SIN", "BKK"]
+      }
+    ],
+    "total_duration": 2925,
+    "transfers": 2
+  },
+  {
+    "id": "a8d408db-d55d-420e-ae69-b16de578d1bc",
+    "price": 16000,
+    "currency": "$",
+    "legs": [
+      {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTime": "10:45",
+        "arrivalTime": "08:00",
+        "duration": "26h 15m"
+      },
+      {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTime": "14:20",
+        "arrivalTime": "06:50",
+        "duration": "18h 30m"
+      }
+    ],
+    "total_duration": 2685,
+    "transfers": 0
+  }
+]

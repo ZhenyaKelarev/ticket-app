@@ -1,0 +1,42 @@
+body {
+  font-family: "Open-Sans", sans-serif;
+  background-color: #f1fcff;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 390px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@mixin phone {
+  @media screen and (min-width: 480px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+@include tablet {
+  .container {
+    max-width: 760px;
+    padding: 0 24px;
+  }
+}
+@include desktop {
+  .container {
+    max-width: 1200px;
+    padding: 0 36px;
+  }
+}
