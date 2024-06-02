@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://zeka416351@gmail.com.github.io/ticket-app/",
+  "homepage": "https://ZhenyaKelarev.github.io/ticket-app/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
