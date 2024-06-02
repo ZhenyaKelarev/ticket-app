@@ -14,7 +14,7 @@ export const TicketElement: FC<ThicketElementProps> = ({ thicket }) => {
           {price}
           {currency}
         </p>
-        <img src="/company.jpg" alt="company logo" />
+        <img src="company.jpg" alt="company logo" />
       </div>
       <div className="thicket__body__wrapper">
         {legs.map((leg) => (
