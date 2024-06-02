@@ -3,7 +3,7 @@ export const Header = () => {
     <header className="header" >
       <div className="container">
         <a href="/" className="header__link">
-          <img src="/logo.svg" alt="logo" />
+          <img src="logo.svg" alt="logo" />
         </a>
       </div>
     </header>
